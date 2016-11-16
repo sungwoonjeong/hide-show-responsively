@@ -17,4 +17,9 @@ html {
   *, *::before, *::after {
     box-sizing: inherit;
   }
-}
+
+  img {
+    float: left;
+    display: inline-block;
+    width: 25%;
+  }
