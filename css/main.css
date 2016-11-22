@@ -18,8 +18,11 @@ html {
     box-sizing: inherit;
   }
 
+  body {
+    margin: 8px;
+  }
+
   img {
-    float: left;
     display: inline-block;
-    width: 25%;
+    width: 100%;
   }
