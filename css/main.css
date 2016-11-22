@@ -18,20 +18,30 @@ html {
     box-sizing: inherit;
   }
 
-  body {
-    margin: 8px;
-  }
-
   img {
     display: inline-block;
     width: 100%;
   }
 
-    img:nth-child(2)
-    {
+    img:nth-child(2) {
       display: none;
     }
 
-    img:nth-child(4){
+    img:nth-child(4) {
       display: none;
+    }
+
+    @media only screen and (min-width: 25em) {
+      img {
+        width: 49%;
+      }
+
+      img:nth-child(2) {
+        display: inline-block;
+      }
+
+      img:nth-child(4) {
+        display: inline-block;
+      }
+
     }
